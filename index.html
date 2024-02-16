@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b293c74bcc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
@@ -38,20 +39,31 @@
 
             <!-- upper header section -->
             <header class="header">
-                <div class="upper-header">            
-                    <input type="text" class="search-bar" id="search-bar">
-                    <div class="">
-                    <span class="notif-icon">&#128276;</span>
-                    <span class="logo-icon">&#8930;</span>
-                    <span class="name">Morgan Oakley</span></div>
+                <div class="upper-header">
+                    <div class="search-container">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="search-bar" id="search-bar">
+                    </div>
+
+                    <div class="profile">
+                    <i class="fa-regular fa-bell"></i>
+
+                    <img src="logo.svg" alt="">
+                    
+                    <span class="name">Morgan Oakley</span>
+                   </div>
 
                 </div>
                 <div class="lower-header">
-                    <span class="logo-icon">&#8930;</span>
-                    <div class="welcome-name">
-                        <span class="welcome">Hi, there, </span>
-                        <span class="name">Morgan Oakley</span>
+
+                    <div class="logo-pro-container">
+                        <img src="logo.svg" alt="">
+                        <div class="welcome-name">
+                            <span class="welcome">Hi, there, </span>
+                            <span class="name">Morgan Oakley (@MOakley)</span>
+                        </div>
                     </div>
+
                     <div class="main-button-container">
                         <div class="button-container">
                             <button class="new">New</button>
@@ -64,47 +76,56 @@
                         </div>
                     </div>
                 </div>
-    
             </header>
+
     <!-- grid cards -->
-            <div class="lower-right-main">
-                <div class="grid-section">
-                    <div class="grid-card">
-                        <h3 class="card-title">Super Cool Project</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
+
+    <div class="container">
+        <div class="titles">
+            <h2 id="project-title">Your Projects</h2>
+            <h2 class="small-section-title"> Announcements
+            </h2>
+        </div>
+                <div class="lower-right-main">
+                    <div class="grid-section">
+        
+                        <div class="grid-card">
+                            <h3 class="card-title">Super Cool Project</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
+                        </div>
+                        <div class="grid-card">
+                            <h3 class="card-title">Less Cool Project</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
+                        </div>
+                        <div class="grid-card">
+                            <h3 class="card-title">Impossible App</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
+                        </div>
+                        <div class="grid-card">
+                            <h3 class="card-title">Easy Peasy App</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
+                        </div>
+                        <div class="grid-card">
+                            <h3 class="card-title">Ad Blocker</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
+                        </div>
+                        <div class="grid-card">
+                            <h3 class="card-title">Money Maker</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
+                        </div>
                     </div>
-                    <div class="grid-card">
-                        <h3 class="card-title">Less Cool Project</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
-                    </div>
-                    <div class="grid-card">
-                        <h3 class="card-title">Impossible App</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
-                    </div>
-                    <div class="grid-card">
-                        <h3 class="card-title">Easy Peasy App</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
-                    </div>
-                    <div class="grid-card">
-                        <h3 class="card-title">Ad Blocker</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
-                    </div>
-                    <div class="grid-card">
-                        <h3 class="card-title">Money Maker</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p>
-                    </div>
+                    <!-- right side section of lower grid -->
+                    <section class="small-section">
+                        <div class="grid-card">                        <h3 class="small-title">Money Maker</h3>
+                            <p class="small-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p></div>
+                        <div class="grid-card">                        <h3 class="small-title">Site Maintenance</h3>
+                            <p class="small-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium cum illum rem at ducimus!</p></div>
+                    </section>
                 </div>
-                <!-- right side section of lower grid -->
-                <section class="small-section">
-                    <h5 class="small-section-title"> Announcements
-                
-                    </h5>
-                    <div class="grid-card">snakeeee</div>
-                    <div class="grid-card">snakeee</div>
-                </section>
-            </div>
+    </div>
         </section>
     </div>
     
 </body>
 </html>
+
